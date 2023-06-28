@@ -3,8 +3,8 @@ import 'dart:collection';
 import 'package:flutter/foundation.dart';
 import 'package:intl/intl.dart';
 
-import 'package:kookbook_app/utils/plannerUtils.dart';
-import 'package:kookbook_app/utils/dummyData.dart';
+import 'package:green_flames_cookbook_app/utils/plannerUtils.dart';
+import 'package:green_flames_cookbook_app/utils/dummyData.dart';
 
 final List<String> dayOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 

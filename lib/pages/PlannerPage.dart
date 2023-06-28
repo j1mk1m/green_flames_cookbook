@@ -5,9 +5,9 @@ import 'package:table_calendar/table_calendar.dart';
 import 'dart:math';
 import 'package:intl/intl.dart';
 
-import 'package:kookbook_app/models/PlannerModel.dart';
-import 'package:kookbook_app/models/RecipeModel.dart';
-import 'package:kookbook_app/utils/plannerUtils.dart';
+import 'package:green_flames_cookbook_app/models/PlannerModel.dart';
+import 'package:green_flames_cookbook_app/models/RecipeModel.dart';
+import 'package:green_flames_cookbook_app/utils/plannerUtils.dart';
 
 class PlannerPage extends StatelessWidget {
   @override

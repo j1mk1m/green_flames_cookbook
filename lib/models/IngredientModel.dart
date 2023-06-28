@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 
-import 'package:kookbook_app/utils/dummyData.dart';
+import 'package:green_flames_cookbook_app/utils/dummyData.dart';
 
 class IngredientModel extends ChangeNotifier {
   List<IngredientItem> ingredientList = defaultIngredientList;

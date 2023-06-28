@@ -1,6 +1,6 @@
-import 'package:kookbook_app/models/IngredientModel.dart';
-import 'package:kookbook_app/models/RecipeModel.dart';
-import 'package:kookbook_app/models/PlannerModel.dart';
+import 'package:green_flames_cookbook_app/models/IngredientModel.dart';
+import 'package:green_flames_cookbook_app/models/RecipeModel.dart';
+import 'package:green_flames_cookbook_app/models/PlannerModel.dart';
 
 List<IngredientItem> defaultIngredientList = [
     IngredientItem(0, 'Onions', 'Vegetables', 2.0, true),

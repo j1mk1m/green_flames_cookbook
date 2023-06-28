@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
 
-import 'package:kookbook_app/pages/RecipePage.dart';
-import 'package:kookbook_app/pages/IngredientsPage.dart';
-import 'package:kookbook_app/pages/PlannerPage.dart';
+import 'package:green_flames_cookbook_app/pages/RecipePage.dart';
+import 'package:green_flames_cookbook_app/pages/IngredientsPage.dart';
+import 'package:green_flames_cookbook_app/pages/PlannerPage.dart';
 
-import 'package:kookbook_app/models/IngredientModel.dart';
-import 'package:kookbook_app/models/RecipeModel.dart';
-import 'package:kookbook_app/models/PlannerModel.dart';
+import 'package:green_flames_cookbook_app/models/IngredientModel.dart';
+import 'package:green_flames_cookbook_app/models/RecipeModel.dart';
+import 'package:green_flames_cookbook_app/models/PlannerModel.dart';
 
 void main() => runApp(const MainApp());
 
@@ -79,7 +79,7 @@ class WelcomePage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
-                'Kookbook',
+                'Green Flames',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 24.0,
